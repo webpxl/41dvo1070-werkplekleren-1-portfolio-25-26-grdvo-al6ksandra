@@ -409,3 +409,36 @@ html, body {
     margin-bottom: 40px;
     color: #F8E6D0;
 }
+
+.edu-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+
+.bullet-icon {
+    width: 25px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.year {
+    abril-display: var(--font-serif);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.school {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 5px;
+    opacity: 0.8;
+}
+
+.degree {
+    font-style: italic;
+    opacity: 0.7;
+}
