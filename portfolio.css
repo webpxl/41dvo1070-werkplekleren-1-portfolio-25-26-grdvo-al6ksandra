@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #FBEAD3;
+    --brown-dark: #2D2014;
+    --text-light: #F8E6D0;
+
+
+    --font-serif: "abril-display", serif;
+    --font-sans: 'Helvetica', 'Arial', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+    --font-serif: var(--font-sans);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
