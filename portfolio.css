@@ -588,3 +588,83 @@ html, body {
     text-align: center;
     justify-content: center;
 }
+
+.bottom-light-block {
+    background-color: var(--bg-color);
+    width: 100%;
+
+    height: auto;
+    min-height: 400px;
+    padding-bottom: 80px;
+
+    position: relative;
+    z-index: 5;
+
+
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+
+.bottom-right-content {
+    width: 35%;
+    margin-top: -320px;
+    color: #2D2014;
+}
+
+
+.dark-text {
+    color: #2D2014 !important;
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+
+
+.lang-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: revert-layer;
+    gap: 20px;
+}
+
+.lang-item h4 {
+    abril-display: var(--font-serif);
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+.lang-item p {
+    abril-display: var(--font-serif);
+    opacity: 0.6;
+    font-size: 16px;
+}
+
+
+.hobby-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hobby-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+}
+
+
+.hobby-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.hobby-item p {
+    font-weight: bold;
+    font-size: 14px;
+}
