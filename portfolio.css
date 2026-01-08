@@ -442,3 +442,56 @@ html, body {
     font-style: italic;
     opacity: 0.7;
 }
+
+.sub-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.skills-block {
+    margin-bottom: 0;
+}
+
+
+.icons-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.skill-icon {
+    width: 40px;
+    height: auto;
+}
+
+
+.pills-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.skill-pill {
+    border: 1px solid #F8E6D0;
+    background-color: #F8E6D0;
+    color: #493623;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+
+.sub-label {
+    margin-bottom: 10px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+.coding-list {
+    list-style: disc inside;
+    line-height: 1.8;
+    font-size: 16px;
+}
+.skills-row {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
