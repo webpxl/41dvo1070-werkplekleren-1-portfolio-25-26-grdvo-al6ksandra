@@ -8,22 +8,24 @@
     <link rel="stylesheet" href="https://use.typekit.net/rtn7uls.css">
 </head>
 <body>
+<div id="custom-cursor"></div>
 
 <header class="header">
     <div class="logo">
         <span class="star-icon">✦</span> ALEKSANDRA TYCHYNA
     </div>
     <nav class="navigation">
-        <a href="#">OVER MIJ</a>
-        <a href="#">RESUME</a>
-        <a href="#" class="btn-contact">CONTACT</a>
+        <a href="#about" class="nav-btn">Over Mij</a>
+        <a href="#projects" class="nav-btn">Projecten</a>
+        <a href="#contact" class="nav-btn">Contact</a>
+        <a href="portfolio/index.html" class="nav-btn">DVO Profiel</a>
     </nav>
 </header>
 
 <main class="hero-wrapper">
 
     <div class="stars-left">
-        <img class="hero-img" src="portfolio/Group%20Stars%201.svg" alt="stars">
+        <img class="hero-img" src="images/Group%20Stars%201.svg" alt="stars">
     </div>
 
     <div class="bg-text-container">
@@ -49,7 +51,7 @@
     </div>
 
     <div class="photo-container">
-        <img src="portfolio/profile-img" alt="Aleksandra" class="main-photo">
+        <img src="images/profile-img" alt="Aleksandra" class="main-photo">
     </div>
 
 </main>
@@ -57,7 +59,8 @@
 
 <section class="about-contact-section">
 
-    <div class="text-content">
+    <div class="text-content"
+         id="contact">
         <h2>Hallo,<br>mijn naam is Aleksandra!</h2>
 
         <p>
@@ -77,22 +80,24 @@
 
             <div class="brown-card-bg">
                 <div class="white-circle"></div>
-                <img src="portfolio/mephoto.png" alt="Aleksandra" class="cutout-photo">
+                <img src="images/mephoto.png" alt="Aleksandra" class="cutout-photo">
             </div>
 
             <div class="contact-box">
                 <h3>Contact</h3>
                 <ul class="contact-list">
                     <li>
-                        <img src="portfolio/Place%20Marker.svg" class="icon-img" alt="loc">
+                        <img src="images/Place%20Marker.svg" class="icon-img" alt="loc">
                         BELGIË, SINT-TRUIDEN
                     </li>
                     <li>
-                        <img src="portfolio/Letter.svg" class="icon-img" alt="mail">
-                        ALEKSANDRATYCHINA@GMAIL.COM
+                        <img src="images/Letter.svg" class="icon-img" alt="mail">
+                        <a href="mailto:ALEKSANDRATYCHINA@GMAIL.COM" class="contact-link">
+                            ALEKSANDRATYCHINA@GMAIL.COM
+                        </a>
                     </li>
                     <li>
-                        <img src="portfolio/Phone.svg" class="icon-img" alt="phone">
+                        <img src="images/Phone.svg" class="icon-img" alt="phone">
                         +32465890704
                     </li>
                 </ul>
@@ -103,7 +108,8 @@
 </section>
 
 
-<section class="resume-section">
+<section class="resume-section"
+         id="about">
 
     <div class="resume-bg-text">
         <span class="outline-text">RESUME</span>
@@ -116,8 +122,9 @@
         <div class="resume-column-left">
             <h2 class="section-title">Onderwijs</h2>
 
+
             <div class="edu-item">
-                <img src="portfolio/starwht.svg" alt="star" class="bullet-icon">
+                <img src="images/starwht.svg" alt="star" class="bullet-icon">
 
                 <div class="edu-info">
                     <h3 class="year">2021 – 2023</h3>
@@ -127,7 +134,7 @@
             </div>
 
             <div class="edu-item">
-                <img src="portfolio/starwht.svg" alt="star" class="bullet-icon">
+                <img src="images/starwht.svg" alt="star" class="bullet-icon">
 
                 <div class="edu-info">
                     <h3 class="year">2025 – Heden</h3>
@@ -145,9 +152,9 @@
                 <div class="skills-block">
                     <h3 class="sub-title">Software skills</h3>
                     <div class="icons-row">
-                        <img src="portfolio/Ai.svg" alt="Ai" class="skill-icon">
-                        <img src="portfolio/Ph.svg" alt="Ps" class="skill-icon">
-                        <img src="portfolio/Canva.svg" alt="Canva" class="skill-icon">
+                        <img src="images/Ai.svg" alt="Ai" class="skill-icon">
+                        <img src="images/Ph.svg" alt="Ps" class="skill-icon">
+                        <img src="images/Canva.svg" alt="Canva" class="skill-icon">
                     </div>
 
                     <div class="pills-row">
@@ -177,7 +184,7 @@
     <h2 class="section-title experience-title">Ervaring</h2>
 
     <div class="exp-item">
-        <img src="portfolio/starbrwn.svg" alt="star" class="bullet-icon">
+        <img src="images/starbrwn.svg" alt="star" class="bullet-icon">
         <div class="exp-info">
             <h3 class="year">2022</h3>
             <p class="role">Marketeer Beheer</p>
@@ -187,7 +194,7 @@
     </div>
 
     <div class="exp-item">
-        <img src="portfolio/starbrwn.svg" alt="star" class="bullet-icon">
+        <img src="images/starbrwn.svg" alt="star" class="bullet-icon">
         <div class="exp-info">
             <h3 class="year">2025</h3>
             <p class="role">Student Web & Design</p>
@@ -237,30 +244,103 @@
 
             <div class="hobby-row">
                 <div class="hobby-item">
-                    <img src="portfolio/art.svg" alt="art" class="hobby-icon">
+                    <img src="images/art.svg" alt="art" class="hobby-icon">
                     <p>Digital art</p>
                 </div>
 
                 <div class="hobby-item">
-                    <img src="portfolio/tekenen.svg" alt="draw" class="hobby-icon">
+                    <img src="images/tekenen.svg" alt="draw" class="hobby-icon">
                     <p>Tekenen</p>
                 </div>
 
                 <div class="hobby-item">
-                    <img src="portfolio/Gym.svg" alt="sport" class="hobby-icon">
+                    <img src="images/Gym.svg" alt="sport" class="hobby-icon">
                     <p>Sport</p>
                 </div>
 
                 <div class="hobby-item">
-                    <img src="portfolio/travel.svg" alt="travel" class="hobby-icon">
+                    <img src="images/travel.svg" alt="travel" class="hobby-icon">
                     <p>Traveling</p>
                 </div>
             </div>
         </div>
 
-    </div> </div>
+    </div>
+</div>
 
+<section class="projects-section" id="projects">
 
+    <h2 class="section-title">Mijn Projecten</h2>
+
+    <div class="projects-grid-container">
+
+        <a href="files/Tenis.png" download class="project-card">
+            <div class="card-content">
+                <h3>Tenis</h3>
+                <div class="card-subtitle">
+                    <span class="p-type">School Project</span>
+                    <span class="p-skill">Graphic Skills</span>
+                </div>
+                <p class="card-desc">
+                    <b>Het doel van project:</b><br>
+                    Ik heb geleerd te werken met teksteffecten, laagbeheer en compositie in Photoshop.
+                </p>
+            </div>
+            <img src="images/tenis%203.jpg" alt="Tenis Project" class="card-img-overlay">
+        </a>
+
+        <a href="files/burger.png" download class="project-card">
+            <div class="card-content">
+                <h3>Burger</h3> <div class="card-subtitle">
+                <span class="p-type">School Project</span>
+                <span class="p-skill">Graphic Skills</span>
+            </div>
+                <p class="card-desc">
+                    <b>Het doel van project:</b><br>
+                    In dit project lag de focus op Smart Objects en Smart Filters (niet-destructief werken).
+                </p>
+            </div>
+            <img src="images/burger%202.jpg" alt="Burger Project" class="card-img-overlay">
+        </a>
+
+        <a href="files/AIRPODS.png" download class="project-card">
+            <div class="card-content">
+                <h3>AirPods</h3>
+                <div class="card-subtitle">
+                    <span class="p-type">Eigen Project</span>
+                    <span class="p-skill">Photoshop</span>
+                </div>
+                <p class="card-desc">
+                    <b>Het doel van project:</b><br>
+                    Ontwerp van een productadvertentie: Combinatie van vormen, typografie en beeldbewerking.
+                </p>
+            </div>
+            <img src="images/airpods3.jpg" alt="AirPods Project" class="card-img-overlay">
+        </a>
+
+        <a href="files/Tulip.ai" download class="project-card">
+            <div class="card-content">
+                <h3>Tulip</h3>
+                <div class="card-subtitle">
+                    <span class="p-type">Eigen Project</span>
+                    <span class="p-skill">Illustrator</span>
+                </div>
+                <p class="card-desc">
+                    <b>Het doel van project:</b><br>
+                    Focus op het creëren van 'puffy' 3D-illustraties. Gebruik van belichting en kleur.
+                </p>
+            </div>
+            <img src="images/Tulip%205.jpg" alt="Tulip Project" class="card-img-overlay">
+        </a>
+
+    </div>
+</section>
+
+<footer class="footer-bar">
+    <p>&copy; 2026 Oleksandra Tychyna student PXL</p>
+    <a href="privacy" class="privacy-link">Privacyverklaring</a>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
-
