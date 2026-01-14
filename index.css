@@ -710,3 +710,289 @@ html, body {
     text-decoration: underline;
     opacity: 0.8;
 }
+
+
+.projects-section {
+    padding: 0 10% 150px 10%;
+    background-color: #493623;
+    margin-top: -10px;
+}
+
+
+.projects-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.project-card {
+    position: relative;
+    display: block;
+    background-color: var(--bg-color);
+    height: 390px;
+    width: 460px;
+    text-decoration: none;
+    color: #2D2014;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border: 4px solid #2D2014;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+}
+
+
+
+.card-content {
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--bg-color);
+}
+
+.project-card h3 {
+    --font-family: var(--font-serif);
+    font-size: 55px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1;
+}
+
+.card-subtitle {
+    --font-family: var(--font-serif);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-type {
+    margin-bottom: 5px;
+}
+
+.p-skill {
+    opacity: 0.6;
+    --font-family: var(--font-sans);
+    font-size: 16px;
+}
+
+.card-desc {
+    --font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: auto;
+}
+
+
+
+.project-card img {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 0;
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in-out;
+}
+
+
+.project-card:hover img {
+    transform: translateY(0);
+}
+
+
+.projects-section .section-title {
+    color: #FBEAD3;
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 50px;
+    padding-top: 80px;
+
+
+
+}
+
+
+.footer-bar {
+
+    background-color: #FBEAD3;
+
+
+    color: #2D2014;
+
+
+    text-align: center;
+
+
+    padding: 20px 0;
+
+    width: 100%;
+}
+
+.footer-bar p {
+    --font-family: var(--font-serif);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.privacy-link {
+    --font-family: var(--font-serif);
+    font-size: 18px;
+    color: #2D2014;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.privacy-link:hover {
+    text-decoration: underline;
+}
+
+
+
+.dvo-header .logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+    width: auto !important;
+    justify-content: flex-start !important;
+}
+
+
+.header-star {
+    width: 40px;
+    height: auto;
+
+}
+
+.dvo-section {
+    padding: 150px 10% 100px 10%;
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+.dvo-main-title {
+    --font-family: var(--font-sans);
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #2D2014;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+
+.dvo-subtitle {
+    --font-family: var(--font-serif);
+    font-size: 24px;
+    color: #2D2014;
+    margin-bottom: 60px;
+    opacity: 0.8;
+}
+
+
+.dvo-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.dvo-card {
+    border: 3px solid #2D2014;
+    border-radius: 30px;
+    padding: 40px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+}
+
+.dvo-card:hover {
+    transform: translateY(-5px);
+    background-color: rgba(45, 32, 20, 0.03);
+}
+
+.dvo-role-title {
+    --font-family: var(--font-serif);
+    font-size: 32px;
+    color: #2D2014;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.dvo-text {
+    --font-family: var(--font-sans);
+    font-size: 18px;
+    line-height: 1.6;
+    color: #2D2014;
+}
+
+
+
+.download-bar {
+    background-color: #493623;
+    color: #F8E6D0;
+    text-align: center;
+    padding: 40px 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 60px auto 80px auto;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.download-bar h3 {
+    --font-family: var(--font-sans);
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #F8E6D0;
+}
+
+.download-bar p {
+    --font-family: var(--font-serif);
+    font-size: 16px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+
+.download-btn {
+    display: inline-block;
+    background-color: #F8E6D0;
+    color: #2D2014;
+
+    padding: 15px 30px;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: transform 0.2s ease;
+}
+
+.download-btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
