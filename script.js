@@ -49,7 +49,7 @@ document.addEventListener('mousemove', (e) => {
     const elementUnderMouse = document.elementFromPoint(e.clientX, e.clientY);
 
 
-    if (elementUnderMouse && elementUnderMouse.closest('.brown-bar, .header, .footer, .download-bar, .project-card, .resume-section')) {
+    if (elementUnderMouse && elementUnderMouse.closest('.brown-bar, .footer, .download-bar, .project-card, .resume-section')) {
         cursor.classList.add('light-mode');
         isDarkMode = true;
     } else {
