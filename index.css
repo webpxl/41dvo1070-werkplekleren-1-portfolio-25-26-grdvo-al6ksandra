@@ -1322,7 +1322,7 @@ body, a, button, .nav-btn, .project-card, .download-btn {
 
 .btn-back:hover {
     transform: translateY(-3px);
-    background-color: #2D2014;
+    text-shadow: 0 5px 10px rgba(73, 54, 35, 0.8);
 }
 
 .case-study-container {
