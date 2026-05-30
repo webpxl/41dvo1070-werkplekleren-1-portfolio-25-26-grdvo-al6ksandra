@@ -934,6 +934,8 @@ html, body {
     cursor: pointer;
 }
 
+
+
 @media screen and (max-width: 1024px) {
 
 
@@ -1300,4 +1302,188 @@ body, a, button, .nav-btn, .project-card, .download-btn {
 @keyframes fadeOut {
     0% { transform: scale(1); opacity: 0.8; }
     100% { transform: scale(0); opacity: 0; margin-top: 20px; }
+}
+
+
+.btn-back {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    color: #2D2014;
+    text-decoration: underline !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: 6px !important;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.btn-back:hover {
+    transform: translateY(-3px);
+    background-color: #2D2014;
+}
+
+.case-study-container {
+    padding: 20px 10% 100px 10%;
+    background-color: var(--bg-color);
+}
+
+.case-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.case-title {
+    font-family: var(--font-serif);
+    font-size: 55px;
+    color: var(--brown-dark);
+    margin-bottom: 10px;
+}
+
+.case-subtitle {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    color: var(--brown-dark);
+    font-weight: normal;
+    font-style: italic;
+}
+
+.case-text-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+}
+
+.case-text-card {
+    border: 1px solid var(--brown-dark);
+    border-radius: 20px;
+    padding: 35px 40px;
+    background-color: transparent;
+}
+
+.case-text-card h3 {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    color: var(--brown-dark);
+    margin-bottom: 15px;
+}
+
+.case-text-card p {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--brown-dark);
+}
+
+.mockups-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+}
+
+.mockup-item {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #e0d5c1;
+    aspect-ratio: 4 / 3;
+}
+
+.mockup-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.mockup-overlay {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #F8E6D0;
+    z-index: 2;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+.mockup-overlay.dark {
+    color: #000000;
+    text-shadow: none;
+}
+
+.mockup-overlay h4 {
+    font-family: var(--font-serif);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.mockup-overlay span {
+    font-family: var(--font-serif);
+    font-size: 14px;
+    font-style: italic;
+}
+
+.end-reflection-block {
+    background-color: #493623;
+    border-radius: 25px;
+    padding: 60px 40px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #F8E6D0;
+}
+
+.end-reflection-block h2 {
+    font-family: var(--font-serif);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.end-reflection-block p {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.btn-pdf {
+    background-color: #FBEAD3;
+    color: #2D2014;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: var(--font-serif);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.btn-pdf:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+    .mockups-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .case-title {
+        font-size: 40px;
+    }
+
+    .case-text-card {
+        padding: 25px;
+    }
+
+    .end-reflection-block {
+        padding: 40px 20px;
+    }
 }
